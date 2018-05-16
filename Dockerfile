@@ -18,3 +18,5 @@ RUN wget https://cogentdatahub.com/assets/srr-2.0.11.tgz
 RUN tar xvzf srr-2.0.11.tgz
 RUN make -C srr-2.0.11
 RUN make -C srr-2.0.11 install
+
+RUN pip install tox
