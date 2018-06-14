@@ -20,3 +20,10 @@ RUN make -C srr-2.0.11
 RUN make -C srr-2.0.11 install
 
 RUN pip install tox
+
+RUN wget https://www.python.org/ftp/python/3.5.5/Python-3.5.5.tar.xz
+RUN apt-get install -y libbz2-dev
+RUN tar xvf Python-3.5.5.tar.xz
+RUN ./Python-3.5.5/configure
+RUN make -C Python-3.5.5
+RUN make -C Python-3.5.5 install
