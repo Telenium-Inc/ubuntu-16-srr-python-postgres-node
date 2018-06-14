@@ -3,7 +3,7 @@ MAINTAINER Josh Jaques "josh.jaques@telenium.ca"
 
 RUN apt-get update -qy
 RUN apt-get install -y build-essential cmake libffi-dev
-RUN apt-get install -y linux-headers-$(uname -r)
+RUN apt-get install -y linux-headers-aws
 RUN apt-get install -y wget
 RUN apt-get install -y git
 
