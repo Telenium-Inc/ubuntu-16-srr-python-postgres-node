@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.5
+FROM ubuntu:14.04
 MAINTAINER Josh Jaques "josh.jaques@telenium.ca"
 
 RUN apt-get update -qy
