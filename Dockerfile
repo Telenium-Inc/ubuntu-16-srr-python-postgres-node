@@ -7,7 +7,7 @@ RUN apt-get install -y linux-headers-$(uname -r)
 RUN apt-get install -y wget
 RUN apt-get install -y git
 
-RUN apt-get install -y postgresql-9.3 postgresql-server-dev-9.5
+RUN apt-get install -y postgresql-9.5 postgresql-server-dev-9.5
 RUN apt-get install -y postgresql-contrib-9.5
 
 RUN apt-get install -y python3-dev
