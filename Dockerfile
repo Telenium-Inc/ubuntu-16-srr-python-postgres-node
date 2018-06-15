@@ -21,3 +21,8 @@ RUN make -C srr-2.0.11 install
 
 RUN pip install tox
 
+RUN wget https://deb.nodesource.com/setup_8.x
+RUN bash setup_8.x
+RUN apt-get install -y nodejs
+RUN npm install -g yarn
+
